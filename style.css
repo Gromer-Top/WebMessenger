@@ -43,3 +43,23 @@ body {
   height: 10vh;
   border-radius: 0 2vh 2vh 2vh;
 }
+
+.input-message{
+  background-color: #242426;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+}
+
+.input-message__input{
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 70%;
+  height: 50%;
+  background-color: #242426;
+}
