@@ -1,13 +1,45 @@
-.weather{
-  background-color: #54F1B2;
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 80%;
-  height: 70%;
-  border-radius: 20px;
+body {
+  background-color: black;
 }
 
-.weather .header{
+.header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 40px;
   text-align: center;
+}
+
+
+.messenger {
+  width: auto;
+  height: 100vh;
+  margin-top: 5px;
+  background-color: #121214;
+}
+
+.user-message{
+  background-color: #434344;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  height: 10vh;
+  border-radius: 2vh 0 2vh 2vh;
+}
+
+.other-user-message {
+  background-color: #242426;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  height: 10vh;
+  border-radius: 0 2vh 2vh 2vh;
 }
