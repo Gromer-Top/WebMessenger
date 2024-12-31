@@ -17,3 +17,5 @@ function deleteLast() {
   let el = mes[mes.length - 1];
   el.parentNode.removeChild(el);
 }
+
+document.addEventListener("DOMContentLoaded", ready);
