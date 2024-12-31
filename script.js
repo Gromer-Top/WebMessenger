@@ -12,3 +12,8 @@ function sendMessage () {
   }
   input.value = '';
 }
+function deleteLast() {
+  let mes = document.querySelectorAll('.user-message')
+  let el = mes[mes.length - 1];
+  el.parentNode.removeChild(el);
+}
