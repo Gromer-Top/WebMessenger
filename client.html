@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"
-  <script src="script.js"></script>
-  <script src="server.js"></script>
   <title>Мессенджер</title>
 </head>
 
@@ -14,37 +12,22 @@
   <div>
     
   </div>
-  <div class="header">
+  <div id="header">
     Мессенджер
   </div>
-  <div class="messenger">
+  <div id="messenger">
     <div class="user-message">
       Привет
     </div>
     <div class="other-user-message">
       Привет
     </div>
-    <div class="user-message">
-      Этот мессенджер удобный
-    </div>
-    <div class="other-user-message">
-      Даа, жаль только сообщения нельзя отправлять
-    </div>
-    <div class="user-message">
-      Ну да, это плохо, сервак делать надо.
-    </div>
-    <div class="user-message">
-      Только это тяжело, поэтому больше обновлений не будет.
-    </div>
-    <div class=" other-user-message">
-      Жаль, а мне понравился этот мессенджер, аналогов нет.
-    </div>
   </div>
   
-  <div class="input-message">
-    <input class="input-message__input" type="text" placeholder="Сообщение">
-    <input class="input-message__send" type="submit" value="Отправить">
+  <div id="input-message">
+    <input id="input-message__input" type="text" placeholder="Сообщение">
+    <input id="input-message__send" type="submit" value="Отправить" onclick="sendMessage()">
   </div>
-  
+  <script src="script.js"></script>
 </body>
 </html>

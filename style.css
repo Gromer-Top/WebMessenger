@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-.header {
+#header {
   background-color: black;
   top: 0;
   position: fixed;
@@ -15,7 +15,7 @@ body {
 }
 
 
-.messenger {
+#messenger {
   width: auto;
   height: 100vh;
   margin-top: 50px;
@@ -30,7 +30,7 @@ body {
   max-width: 50%;
   min-width: 0;
   color: white;
-  border-radius: 2vh 0 2vh 2vh;
+  border-radius: 15px 0 15px 15px;
 }
 
 .other-user-message {
@@ -41,10 +41,10 @@ body {
   max-width: 50%;
   min-width: 0;
   color: white;
-  border-radius: 0 2vh 2vh 2vh;
+  border-radius: 0 15px 15px 15px;
 }
 
-.input-message{
+#input-message{
   background-color: #242426;
   outline-color: white;
   position: fixed;
@@ -54,7 +54,7 @@ body {
   z-index: 1000;
 }
 
-.input-message__input{
+#input-message__input{
   color: white;
   font-size: 16px;
   border: none;
@@ -66,7 +66,7 @@ body {
   background-color: #242426;
 }
 
-.input-message__send{
+#input-message__send{
   background-color: #242426;
   width: 20%;
   height: 50%;
