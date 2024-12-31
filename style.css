@@ -4,8 +4,8 @@ body {
 
 #header {
   background-color: black;
-  top: 0;
   position: fixed;
+  top: 0;
   height: 50px;
   width: 100%;
   color: white;
@@ -48,11 +48,11 @@ body {
 
 #input-message{
   background-color: #242426;
-  outline-color: white;
   position: fixed;
-  height: 70px;
-  width: 100%;
   bottom: 0;
+  outline-color: white;
+  height: 40px;
+  width: 100%;
   z-index: 1000;
 }
 
