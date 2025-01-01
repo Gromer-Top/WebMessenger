@@ -19,10 +19,9 @@ body {
   background: linear-gradient(#2238A9,#551DB8);
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 95px);
 }
 
 .user-message{
@@ -30,6 +29,7 @@ body {
   display: inline-block;
   margin-top: 10px;
   margin-left: 45%;
+  margin-bottom: 10px;
   float: right;
   padding: 10px;
   max-width: 50%;
