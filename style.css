@@ -16,14 +16,14 @@ body {
 
 
 #messenger {
-  background: linear-gradient(to bottom right, blue 1%, pink);
+  background: linear-gradient(#2238A9,#551DB8);
   margin-top: 50px;
   width: 100vw;
   height: 100vh;
 }
 
 .user-message{
-  background: linear-gradient(to bottom right, blue, pink);
+  background: linear-gradient(to bottom right, #3378FF, #1B65F6);
   margin-top: 10px;
   margin-left: 45%;
   padding: 10px;
@@ -32,11 +32,10 @@ body {
   color: white;
   border-radius: 15px 0 15px 15px;
   word-wrap: break-word;
-  opacity: 0.8;
 }
 
 .other-user-message {
-  background-color: #191919;
+  background-color: #2C2C2C;
   margin-top: 10px;
   margin-right: 45%;
   padding: 10px;
@@ -45,7 +44,6 @@ body {
   color: white;
   border-radius: 0 15px 15px 15px;
   word-wrap: break-word;
-  opacity: 0.8;
 }
 
 #input-message{
