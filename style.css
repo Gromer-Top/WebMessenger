@@ -23,9 +23,11 @@ body {
 }
 
 .user-message{
-  background: linear-gradient(to bottom right, #3378FF, #1B65F6);
+  background: linear-gradient(to right, #60D2FF, #1B65F6);
+  display: inline-block;
   margin-top: 10px;
   margin-left: 45%;
+  float: right;
   padding: 10px;
   max-width: 50%;
   min-width: 0;
@@ -36,6 +38,7 @@ body {
 
 .other-user-message {
   background-color: #2C2C2C;
+  display: inline-block;
   margin-top: 10px;
   margin-right: 45%;
   padding: 10px;
