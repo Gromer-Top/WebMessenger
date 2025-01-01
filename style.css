@@ -6,10 +6,10 @@ body {
 #header {
   background-color: black;
   top: 0;
-  height: 46px;
+  height: 50px;
   width: 100%;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   z-index: 1000;
 }
@@ -21,7 +21,7 @@ body {
   overflow-y: auto;
   position: fixed;
   width: 100vw;
-  height: calc(100vh - 95px);
+  height: calc(100vh - 85px);
 }
 
 .user-message{
